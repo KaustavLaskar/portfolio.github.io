@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Projects</title>
+    <link rel="stylesheet" href="miniProjectstyle.css">
+    <script src="https://kit.fontawesome.com/1d9c3eb1e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <!---------Navigation--------->
+            <nav>
+                <img src="image\miniProjects\logo.gif" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#publication">Publications</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!---------Projects---------->
+    <div id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="project-col-1">
+                    <h2 class="sub-title"><span class="ar">Arduino</span> <span class="ba">Based</span> <span
+                            class="tu">Temperature</span> <span class="hu">Humidity</span> <span class="mtr">Meter</span></h2>
+                    <img src="image\miniProjects\temp&humidity\image\image.png" alt="">
+                </div>
+                <div class="project-col-2">
+                    <h1 class="sub-title"><span class="ss">About This Project</span></h1>
+                    <p>
+                        The idea of this project was to build an Arduino-based embedded device for monitoring environmental variables: humidity
+                        and temperature and to study its performance in different temperature and humidity. The device was built using the
+                        microcontroller Arduino and sensors, which could sense the temperature and amount of moisture inside a building and
+                        provide information in a serial monitor and a liquid crystal display. Out of many clones and different available
+                        microcontroller boards, Arduino Uno was used in this project.
+                        This project has two parts-a theoretical part which gives a basic introduction to the materials and equipment used
+                        during the project and the second part provides stepwise process for connection and circuitry. The project was
+                        successful to meet predetermined goals, implementation was possible with the help of the Arduino book.
+                    </p>
+                    <a href="file\miniProjects\Arduino Based Temperature and Humidity Sensor.pdf" class="btn btn4">Full Documentation of This Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="project-col-1">
+                    <h2 class="sub-title"><span class="ar">Arduino</span> <span class="ba">Based</span> <span class="au">Audio</span> <span class="me">Meter</span></h2>
+                    <img src="image\miniProjects\audioMeter\image\profile.jpg" alt="">
+                </div>
+                <div class="project-col-2">
+                    <h1 class="sub-title"><span class="ss">About This Project</span></h1>
+                    <p>
+                        The idea of this project was to build an Arduino-based embedded device for monitoring intensity of sound at different
+                        place. The device was built using the microcontroller Arduino and sensors, which could sense the intensity of sound at
+                        any place and provide information in a serial monitor and a liquid crystal display. Out of many clones and different
+                        available microcontroller boards, Arduino Uno was used in this project.
+                        This project has two parts-a theoretical part which gives a basic introduction to the materials and equipment used
+                        during the project and the second part provides stepwise process for connection and circuitry. The project was
+                        successful to meet predetermined goals, implementation was possible with the help of the Arduino book
+                    </p>
+                    <a href="file\miniProjects\Arduino Based Audio Meter.pdf" class="btn btn4">Full Documentation of This Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------contact-------------------------->
+<div id="contacts">
+    <div class="container">
+        <h1 class="sub-title">Contacts</h1>
+        <div class="row">
+            <div class="contact-left">
+                <p><i class="fa-regular fa-envelope"></i> kaustav.laskar00@gmail.com</p>
+                <div class="social-icon">
+                    <a href="https://facebook.com/jack12984000"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/kaustav.i_am/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/KaustavLaskar"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kaustav-laskar/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/KaustavLaskar/"><i class="fa-solid fa-terminal"></i></a>
+                </div>
+                <a href="file\CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="NAME" placeholder="Your Name" required>
+                    <input type="email" name="EMAIL" placeholder="Your Email" required>
+                    <input type="number" name="Contact Number" placeholder="Your Contact Number">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
